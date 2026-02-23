@@ -1,0 +1,66 @@
+body{
+   font-family: "LINE Seed JP", sans-serif;
+    background-color: #f3f2f2;
+    margin: 0;padding: 20px;
+}
+
+.main{
+    display:flex ;
+    gap: 20px;
+}
+
+.left{
+    width: 70%;
+    background: white;
+    padding: 20px;
+}
+
+.right{
+    width:30%;
+    background: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+
+}
+
+.product{
+    display: flext;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+}
+
+.product img {
+    width: 80px;
+
+}
+
+.detail{
+    flex: 1;
+    margin-left: 15px;
+
+}
+
+.quantity{
+
+    disply:flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.quantity button{
+    padding: 5px 10px;
+}
+
+.summary-row{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.checkout{
+    width: 100%;
+    padding: 10px;
+    back
+}
